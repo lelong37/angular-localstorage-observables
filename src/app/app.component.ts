@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { LocalStorageService } from './services/local-storage.service'
-
-interface ICustomer { id: number, name: string };
+import { LocalStorageService } from './services/local-storage.service';
 
 @Component({
   selector: 'my-app',
@@ -15,25 +13,26 @@ export class AppComponent implements OnInit {
 
     const name = 'Angular 5';
 
-    let customers = new Array<ICustomer>(
-      { id: 1, name: 'Tony Sneed' },
-      { id: 2, name: 'Long Le' }
+    let scopes = new Array<string>(
+      'read:messages',
+      'edit:messages',
+      'read:reports'
     );
 
-    const key = 'customers';
+    const key = 'scopes';
 
     const log = (x: any) => {
-      customers = x;
-      console.table(customers);
+      scopes = x;
+      console.table(scopes);
     };
 
-    this.localStorageService.setItem(key, customers)
+    this.localStorageService.setItem(key, scopes)
       .subscribe(log);
 
     this.localStorageService.getItem(key)
       .subscribe(log);
 
-    this.localStorageService.setItem(key, customers)
+    this.localStorageService.setItem(key, scopes)
       .subscribe(log);
 
   }
