@@ -1,5 +1,7 @@
 # Angular LocalStorage with Observables
 
+<img src="https://user-images.githubusercontent.com/4691404/38349668-c12ac050-386d-11e8-9d20-362d653f6e07.png" width="150" />
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.1.
 
 ```typescript
