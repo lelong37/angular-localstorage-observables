@@ -1,4 +1,4 @@
-# Angular LocalStorage with Observables
+# Angular LocalStorage with RxJs Observables
 
 <img src="https://user-images.githubusercontent.com/4691404/38349668-c12ac050-386d-11e8-9d20-362d653f6e07.png" width="150" />
 
