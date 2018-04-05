@@ -1,6 +1,28 @@
 # Angular Local-Storage-Service with RxJs Observables
 
-<img src="https://user-images.githubusercontent.com/4691404/38349668-c12ac050-386d-11e8-9d20-362d653f6e07.png" width="150" />
+<table border="0">
+  <tr>
+    <td width="50%" valign="top">
+      <img 
+           src="https://user-images.githubusercontent.com/4691404/38349668-c12ac050-386d-11e8-9d20-362d653f6e07.png"
+           width="500"/>
+    </td>
+    <td>
+      <ul>
+        <li>Subscribe to all localstorage events</li>
+        <li>Subscribe to when and what data is stored in localstorage</li>
+        <li>Subscribe to when and what data is modified in localstorage</li>
+        <li>Subscribe to when and what data is removed from localstorage]</li>
+        <li>Subscribe to last and what saved data that was stored in localstorage</li>
+        <li>Subscribe to when and what data is evicted or deleted from localstorage</li>
+      </ul>
+     </td>
+  </tr>
+</table>
+
+
+
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.1.
 
